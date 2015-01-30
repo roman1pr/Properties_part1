@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Роман Приискалов. All rights reserved.
 //
 
+#import "Boxer.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,6 +18,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Boxer* temp = [[Boxer alloc] init]; // new copy of Boxer
+    
+    temp.name = @"Дурак-боец"; // no comments
+    temp.age = 25;
+    temp.weight = 80.f;
+    temp.height = 1.80f;
+    
+    [temp setName:@"Vasya"]; // using set for example of class
+    
+    NSLog(@"age =  %ld", (long)[temp HowOldAreYou]);
+    
+    NSLog(@"name = %@", temp.name);
+    NSLog(@"name = %@", temp.name);
+    NSLog(@"name = %@", temp.name);
+    
+    NSLog(@"age = %ld, weight  = %f, height = %f", (long)temp.age, temp.weight, temp.height);
+    
+    NSLog(@"name = %@", [temp name]); // using get for examplze of class
+    NSLog(@"age = %ld, weight  = %f, height = %f", (long)[temp age], [temp weight], [temp height]);
+    
     return YES;
 }
 

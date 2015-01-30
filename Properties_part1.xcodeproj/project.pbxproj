@@ -14,6 +14,7 @@
 		303685DA1A7C1F4500D51651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303685D91A7C1F4500D51651 /* Images.xcassets */; };
 		303685DD1A7C1F4500D51651 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303685DB1A7C1F4500D51651 /* LaunchScreen.xib */; };
 		303685E91A7C1F4500D51651 /* Properties_part1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 303685E81A7C1F4500D51651 /* Properties_part1Tests.m */; };
+		303685F31A7C246B00D51651 /* Boxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 303685F21A7C246B00D51651 /* Boxer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		303685E21A7C1F4500D51651 /* Properties_part1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Properties_part1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		303685E71A7C1F4500D51651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		303685E81A7C1F4500D51651 /* Properties_part1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Properties_part1Tests.m; sourceTree = "<group>"; };
+		303685F21A7C246B00D51651 /* Boxer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boxer.m; sourceTree = "<group>"; };
+		303685F41A7C248700D51651 /* Boxer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Boxer.h; path = ../Boxer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		303685CB1A7C1F4500D51651 /* Properties_part1 */ = {
 			isa = PBXGroup;
 			children = (
+				303685F21A7C246B00D51651 /* Boxer.m */,
+				303685F41A7C248700D51651 /* Boxer.h */,
 				303685D01A7C1F4500D51651 /* AppDelegate.h */,
 				303685D11A7C1F4500D51651 /* AppDelegate.m */,
 				303685D31A7C1F4500D51651 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				303685D51A7C1F4500D51651 /* ViewController.m in Sources */,
 				303685D21A7C1F4500D51651 /* AppDelegate.m in Sources */,
+				303685F31A7C246B00D51651 /* Boxer.m in Sources */,
 				303685CF1A7C1F4500D51651 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
